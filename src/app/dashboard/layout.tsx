@@ -1,5 +1,4 @@
 import { Navbar } from "@/components/layout/navbar";
-import { useAuth } from "@clerk/nextjs";
 import React from "react";
 
 const layout = ({
@@ -7,10 +6,9 @@ const layout = ({
 }: Readonly<{
 	children: React.ReactNode;
 }>) => {
-
 	return (
-		<div>
-			<Navbar />
+		<div className="flex flex-col min-h-screen px-10 py-32 items-center">
+			{/* <Navbar /> */}
 			{children}
 		</div>
 	);
