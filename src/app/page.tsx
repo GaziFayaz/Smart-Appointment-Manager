@@ -32,6 +32,17 @@ export default function Home() {
 			/>
 			<SignIn />
 
+			<div>
+				<h3 className="font-bold text-lg">Test Credentials</h3>
+				<p>
+					<span className="font-bold text-red-400">Email: </span>
+					gazifayaz.16694+clerk_test@gmail.com
+				</p>
+				<p>
+					<span className="font-bold text-red-400">Password: </span>Abc123
+				</p>
+			</div>
+
 			{/* <main className="flex flex-1 min-h-screen w-full  flex-col items-center justify-center py-32 px-16 sm:items-start">
 				
 			</main> */}
