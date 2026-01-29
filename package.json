@@ -9,24 +9,31 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@base-ui/react": "^1.1.0",
     "@clerk/nextjs": "^6.36.10",
     "@clerk/themes": "^2.4.50",
     "@gsap/react": "^2.1.2",
     "@prisma/adapter-pg": "^7.3.0",
     "@prisma/client": "^7.3.0",
     "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.4",
     "@tanstack/react-table": "^8.21.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
     "gsap": "^3.14.2",
+    "http-status-codes": "^2.3.0",
     "lucide-react": "^0.562.0",
     "next": "16.1.4",
     "pg": "^8.17.2",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^5.5.0",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
